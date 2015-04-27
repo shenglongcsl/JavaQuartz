@@ -9,4 +9,6 @@
 [Quartz教程](http://nkcoder.github.io/blog/20140624/quartz-tutorial-02-api-job-trigger/)
 
 [Quartz源码分析](https://github.com/nkcoder/quartz-explained)
+
+
 如果我们想在每个星期一早上10点执行任务，节假日除外，那么这可以看成是个调度任务。提起调度，最简单的方式是java.util包提供的Timer类，其和Quartz的区别我没有详细研究过，这里重点介绍Quartz。
